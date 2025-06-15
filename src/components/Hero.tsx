@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { code } from "lucide-react";
+import { Code } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -49,7 +49,7 @@ const Hero = () => {
               <div className="w-96 h-96 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full animate-float opacity-20"></div>
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="bg-white p-8 rounded-2xl shadow-2xl">
-                  <code className="w-24 h-24 text-blue-600" />
+                  <Code className="w-24 h-24 text-blue-600" />
                   <div className="mt-4 text-center">
                     <div className="text-2xl font-bold text-gray-900 font-arabic">برمج بالعربية</div>
                     <div className="text-gray-600 font-arabic">تعلم واحترف</div>

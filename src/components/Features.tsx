@@ -1,25 +1,25 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { book, school, language, code } from "lucide-react";
+import { Book, School, Languages, Code } from "lucide-react";
 
 const features = [
   {
-    icon: book,
+    icon: Book,
     title: "محتوى تعليمي متميز",
     description: "محتوى تعليمي عالي الجودة مصمم خصيصاً للطلاب العرب"
   },
   {
-    icon: school,
+    icon: School,
     title: "تعلم تفاعلي",
     description: "تعلم من خلال التطبيق العملي والمشاريع الحقيقية"
   },
   {
-    icon: language,
+    icon: Languages,
     title: "دعم مستمر",
     description: "فريق دعم متخصص للإجابة على استفساراتك في أي وقت"
   },
   {
-    icon: code,
+    icon: Code,
     title: "شهادات معتمدة",
     description: "احصل على شهادات معتمدة تساعدك في سوق العمل"
   }

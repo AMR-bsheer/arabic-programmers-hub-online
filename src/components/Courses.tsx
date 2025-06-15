@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { code } from "lucide-react";
+import { Code } from "lucide-react";
 
 const courses = [
   {
@@ -52,7 +52,7 @@ const Courses = () => {
             <Card key={index} className="group hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <CardHeader>
                 <div className={`w-12 h-12 bg-gradient-to-r ${course.color} rounded-lg flex items-center justify-center mb-4`}>
-                  <code className="w-6 h-6 text-white" />
+                  <Code className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle className="text-xl font-arabic text-right">{course.title}</CardTitle>
                 <CardDescription className="text-right font-arabic">{course.description}</CardDescription>
